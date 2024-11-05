@@ -11,9 +11,9 @@ Map<String, WidgetBuilder> routes = {
   //all screens will be registered here like manifest in android
   SplashScreen.routeName: (context) => SplashScreen(),
   LoginScreen.routeName: (context) => LoginScreen(),
-  HomeScreen.routeName: (context) => HomeScreen(),
-  MyProfileScreen.routeName: (context) => MyProfileScreen(),
-  FeeScreen.routeName: (context) => FeeScreen(),
-  AssignmentScreen.routeName: (context) => AssignmentScreen(),
-  DateSheetScreen.routeName: (context) => DateSheetScreen(),
+  HomeScreen.routeName: (context) => const HomeScreen(),
+  MyProfileScreen.routeName: (context) => const MyProfileScreen(),
+  FeeScreen.routeName: (context) => const FeeScreen(),
+  AssignmentScreen.routeName: (context) => const AssignmentScreen(),
+  DateSheetScreen.routeName: (context) => const DateSheetScreen(),
 };
